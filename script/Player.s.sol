@@ -9,7 +9,9 @@ contract PlayerScript is Script {
     function setUp() public {}
 
     function run() public {
-        vm.broadcast();
+        uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+        vm.startBroadcast(deployerPrivateKey);
+        console2.log("Deploying from", vm.addr(deployerPrivateKey));
         Player player = new Player();
         console2.log("Deployed Player at", address(player));
     }
