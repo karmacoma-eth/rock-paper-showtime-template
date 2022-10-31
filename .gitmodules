@@ -1,3 +1,6 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/rock-paper-showtime"]
+	path = lib/rock-paper-showtime
+	url = https://github.com/karmacoma-eth/rock-paper-showtime
