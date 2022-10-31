@@ -65,6 +65,11 @@ Note:
 
 With that in mind, you should be ready to implement some strategies that are more intelligent than the default one, a gambit called the Bureaucrat because it only throws paper.
 
+
+### Test against live opponents
+
+When you run `forge test -vvvv --match testAgainstCrescendo`, you can see how your local strategy _would_ play out against a registered opponent, in this case `crescendo`. This lets you test your strategy against live players without having to redeploy every time!
+
 ### Deploy
 
 When you are done building and testing, you're ready to deploy and go against live opponents!
