@@ -76,7 +76,7 @@ When you are done building and testing, you're ready to deploy and go against li
 
 First you need a little bit of setup. Create a file called `.env` with the following format:
 
-```
+```sh
 PRIVATE_KEY=
 MUMBAI_RPC_URL=
 ETHERSCAN_API_KEY=
@@ -94,7 +94,7 @@ Then enter your favorite RPC url and Polygonscan API keys in `.env`.
 
 You are now ready to deploy!
 
-```
+```sh
 source .env
 
 # dry run
