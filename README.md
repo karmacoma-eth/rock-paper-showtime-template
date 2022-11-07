@@ -23,7 +23,7 @@ forge test
 
 ### Work on your strategy
 
-The point of this workshop will be to develop a smart contract that implements a rock-paper-scissors strategy against other smart contracts. You can check out the default [src/Player.sol]:
+The point of this workshop will be to develop a smart contract that implements a rock-paper-scissors strategy against other smart contracts. You can check out the default [src/Player.sol](https://github.com/karmacoma-eth/rock-paper-showtime-template/blob/main/src/Player.sol):
 
 ```solidity
 // SPDX-License-Identifier: MIT
